@@ -150,7 +150,7 @@ const BiomechanicaTest = () => {
     },
     {
       id: "desarrollo4",
-      texto: "Un astronauta realiza un experimento para evaluar la atrofia muscular durante su misión de 3 meses en la Estación Espacial Internacional. Al inicio de la misión, su músculo cuádriceps femoral derecho tiene una fuerza máxima isométrica de 2400 N, medida en un dispositivo especializado. Estudios previos han demostrado que, sin ejercicio compensatorio, los astronautas pierden aproximadamente un 2% de fuerza muscular por semana en microgravedad. Tras 12 semanas en el espacio, ¿qué fuerza máxima isométrica podrá generar el astronauta con su cuádriceps al regresar a la Tierra y qué recomendación le harías para reducir la tasa de reducción de fuerza muscular y pérdida ósea?",
+      texto: "Un astronauta realiza un experimento para evaluar la atrofia muscular durante su misión de 3 meses en la Estación Espacial Internacional. Al inicio de la misión, su músculo cuádriceps femoral derecho tiene una fuerza máxima isométrica de 2400 N, medida en un dispositivo especializado. Estudios previos han demostrado que, sin ejercicio compensatorio, los astronautas pierden aproximadamente un 2% de fuerza muscular por semana en microgravedad. Tras 12 semanas en el espacio, ¿qué fuerza máxima isométrica podrá generar el astronauta con su cuádriceps al regresar a la Tierra y qué recomendación le harías para reducir la tasa de reducción de fuerza muscular y pérdida ósea? ¿Si el paciente tiene una masa de 80 kg cuanto pesa en la tierra?",
     },
   ];
 

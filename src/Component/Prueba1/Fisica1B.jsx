@@ -138,19 +138,19 @@ const BiomechanicaTest = () => {
   const preguntasDesarrollo = [
     {
       id: "desarrollo1",
-      texto: "A su consultorio llega un paciente al que se le colocó una prótesis de codo. Indique los materiales posibles que podría estar hecha la prótesis y bajo qué criterios. Además, indique los tipos de fuerza, esfuerzos, y momentos que estará sometido la pieza al ser colocado y en qué zonas se presentan.",
+      texto: "A su consultorio llega un paciente al que se le coloco un aparato ortopédico para fijar el hueso. Indique los materiales posibles que podría hecha la prótesis y bajo qué criterios. Además, indique los tipos de fuerza, esfuerzos, y momentos que estará sometido la pieza al ser colocado y en que zonas se presentan",
     },
     {
       id: "desarrollo2",
-      texto: "Un odontólogo realiza la exodoncia de un molar inferior utilizando un elevador dental recto. El elevador actúa como una palanca de primer género donde el punto de apoyo (fulcro) se encuentra en el hueso alveolar. La distancia desde el punto de aplicación de la fuerza en el mango del elevador hasta el fulcro es de 12 cm, mientras que la distancia desde el fulcro hasta el punto de resistencia en el diente es de 0.8 cm. Si el odontólogo aplica una fuerza de 45 N en el mango del elevador, ¿cuál es la fuerza resultante aplicada sobre el diente para lograr su luxación?",
+      texto: "Un odontólogo realiza la exodoncia de un molar inferior utilizando un elevador dental recto. El elevador actúa como una palanca de primer género donde el punto de apoyo (fulcro) se encuentra en el hueso alveolar. La distancia desde el punto de aplicación de la fuerza en el mango del elevador hasta el fulcro es de 12 cm, mientras que la distancia desde el fulcro hasta el punto de resistencia en el diente es de 0.7 cm. Si el odontólogo aplica una fuerza de 55 N en el mango del elevador, ¿cuál es la fuerza resultante aplicada sobre el diente para lograr su luxación?",
     },
     {
       id: "desarrollo3",
-      texto: "Un paciente llega a urgencias tras caer de un andamio en una obra. Presenta una fractura por compresión en la tibia. Para corroborar su versión sobre la altura de la caída, el médico forense realiza un análisis biomecánico. Se conoce que el diámetro externo de la tibia del paciente es de 2,8 cm, con un canal medular interno de 1,2 cm de diámetro (por lo que el hueso compacto tiene un espesor de 0,8 cm). El tiempo de impacto estimado es de 0,02 segundos, la masa del paciente es de 85 kg y el esfuerzo de fluencia del hueso cortical es de 150 MPa. ¿Desde qué altura aproximada cayó el paciente?",
+      texto: "Un paciente llega a urgencias tras caer de un andamio en una obra. Presenta una fractura por compresión en la tibia. Para corroborar su versión sobre la altura de la caída, el médico forense realiza un análisis biomecánico. Se conoce que el diámetro externo de la tibia del paciente es de 2,8 cm, con un canal medular interno de 1,2 cm de diámetro (por lo que el hueso compacto tiene un espesor de 0,8 cm). El tiempo de impacto estimado es de 0,01 segundos, la masa del paciente es de 85 kg y el esfuerzo de fluencia del hueso cortical es de 150 MPa. ¿Desde qué altura aproximada cayó el paciente?",
     },
     {
       id: "desarrollo4",
-      texto: "Un astronauta realiza un experimento para evaluar la atrofia muscular durante su misión de 3 meses en la Estación Espacial Internacional. Al inicio de la misión, su músculo cuádriceps femoral derecho tiene una fuerza máxima isométrica de 2400 N, medida en un dispositivo especializado. Estudios previos han demostrado que, sin ejercicio compensatorio, los astronautas pierden aproximadamente un 2% de fuerza muscular por semana en microgravedad. Tras 12 semanas en el espacio, ¿qué fuerza máxima isométrica podrá generar el astronauta con su cuádriceps al regresar a la Tierra y qué recomendación le harías para reducir la tasa de reducción de fuerza muscular y pérdida ósea?",
+      texto: "Un deportista tras una lesión debe realizar fisioterapia y tras 2 meses de ejercicios ha recuperado 10% de su capacidad pasando de 60% a 70%. Suponiendo que al inicio tenia 2500 N de fuerza en el musculo ¿cuánta fuerza ejerce el musculo actualmente? ¿Qué recomienda hacer para fortalecer la musculatura y la densidad ósea? ¿Si el paciente tiene una masa de 70 kg cuanto pesa en la tierra?",
     },
   ];
 
