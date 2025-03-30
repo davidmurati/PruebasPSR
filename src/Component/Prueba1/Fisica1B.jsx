@@ -19,7 +19,7 @@ const BiomechanicaTest = () => {
         "El musculo estriado es de movimiento voluntario",
         "El musculo liso es de movimiento voluntario",
         "El musculo liso es el que compone al corazón",
-        "Uno tiene fibras mas largas que el otro"
+        "Uno tiene fibras más largas que el otro"
       ],
       respuestaCorrecta: 0,
     },
@@ -64,7 +64,7 @@ const BiomechanicaTest = () => {
       respuestaCorrecta: 2,
     },
     {
-      texto: "6. En un músculo peniforme con ángulo de penación de 30°, ¿qué porcentaje de la fuerza muscular contribuye directamente a la fuerza de contracción?",
+      texto: "6. En un músculo peniforme con ángulo de penación de 40°, ¿qué porcentaje de la fuerza muscular contribuye directamente a la fuerza de contracción?",
       opciones: [
         "100%",
         "77%",
@@ -84,7 +84,7 @@ const BiomechanicaTest = () => {
       respuestaCorrecta: 0,
     },
     {
-      texto: "8. Dada la siguiente grafica del movimiento de una sonda nasogástrica en este caso usada para un lavado gástrico diga: si llego al estómago sabiendo que la longitud para llegar es de 80 cm. Donde tiene velocidad igual a cero",
+      texto: "8. Dada la siguiente grafica del movimiento de una sonda nasogástrica en este caso usada para un lavado gástrico diga: si llego al estómago sabiendo que la longitud para llegar es de 80 cm. ¿Dónde la velocidad es igual a cero?",
       opciones: [
         "0 y 30",
         "0 y 55",
@@ -124,11 +124,11 @@ const BiomechanicaTest = () => {
       respuestaCorrecta: 2,
     },
     {
-      texto: "12. Un fisioterapeuta está desarrollando un programa de rehabilitación para un paciente con una lesión de ligamento cruzado anterior (LCA) en etapa inicial de recuperación. En esta fase, el fisioterapeuta necesita fortalecer la musculatura sin generar tensión en el ligamento lesionado, por lo que decide incluir ejercicios que eviten el movimiento articular de la rodilla. ¿Qué combinación de ejercicios sería más adecuada para esta fase de rehabilitación?",
+      texto: "12. Un fisioterapeuta está desarrollando un programa de rehabilitación para un paciente con una lesión de ligamento cruzado anterior (LCA) en etapa inicial de recuperación. En esta fase, el fisioterapeuta necesita fortalecer la musculatura sin generar tensión en el ligamento lesionado, por lo que decide incluir ejercicios isométricos. ¿Qué combinación de ejercicios sería más adecuada para esta fase de rehabilitación?",
       opciones: [
         "Extensiones de rodilla y sentadillas profundas",
         "Sentadillas con salto y escalones",
-        "Contracción isométrica de cuádriceps y ejercicio de puente glúteo estático",
+        "Contracción sin flexo extensión del cuádriceps y ejercicio de puente glúteo estático ",
         "Zancadas dinámicas y ejercicios con banda elástica con movimiento"
       ],
       respuestaCorrecta: 2,
@@ -150,7 +150,7 @@ const BiomechanicaTest = () => {
     },
     {
       id: "desarrollo4",
-      texto: "Un deportista tras una lesión debe realizar fisioterapia y tras 2 meses de ejercicios ha recuperado 10% de su capacidad pasando de 60% a 70%. Suponiendo que al inicio tenia 2500 N de fuerza en el musculo ¿cuánta fuerza ejerce el musculo actualmente? ¿Qué recomienda hacer para fortalecer la musculatura y la densidad ósea? ¿Si el paciente tiene una masa de 70 kg cuanto pesa en la tierra?",
+      texto: "Un deportista tras una lesión debe realizar fisioterapia y tras 2 meses de ejercicios ha recuperado 10% de su capacidad pasando de 60% a 70%. Suponiendo que al inicio la parte posterior y anterior del musculo deltoide elevan el brazo aplicando una fuerza Fp y Fa de 15 N con un ángulo de 30 y 40 grados con la vertical ¿cuánta fuerza ejerce el musculo actualmente? ¿Qué recomienda hacer para fortalecer la musculatura y la densidad ósea? ¿Si el paciente tiene una masa de 70 kg cuanto pesa en la tierra?",
     },
   ];
 
@@ -213,7 +213,7 @@ ${resumenDesarrollo}
   };
 
   const descargarArchivo = (contenido) => {
-    const clave = "biomecanica2025"; // Clave para encriptar
+    const clave = "Muratibiomecanica2025"; // Clave para encriptar
     const contenidoEncriptado = CryptoJS.AES.encrypt(contenido, clave).toString();
     const blob = new Blob([contenidoEncriptado], { type: 'text/plain;charset=utf-8' });
     const enlace = document.createElement('a');

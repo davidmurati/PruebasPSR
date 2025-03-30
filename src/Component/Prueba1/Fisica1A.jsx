@@ -84,7 +84,7 @@ const BiomechanicaTest = () => {
       respuestaCorrecta: 1,
     },
     {
-      texto: "8. Dada la siguiente grafica del movimiento de una sonda nasogástrica en este caso usada para un lavado gástrico diga: si llego al estómago sabiendo que la longitud para llegar es de 80 cm. Donde tiene velocidad es acelerada",
+      texto: "8. Dada la siguiente grafica del movimiento de una sonda nasogástrica en este caso usada para un lavado gástrico diga: si llego al estómago sabiendo que la longitud para llegar es de 80 cm. ¿Dónde la velocidad es acelerada?",
       opciones: [
         "10 a 20 y de 40 a 50",
         "30 a 40",
@@ -114,7 +114,7 @@ const BiomechanicaTest = () => {
       respuestaCorrecta: 2,
     },
     {
-      texto: "11. El freno de alambre que se ve en la figura tiene una tensión T igual a 7N a lo largo de él. La fuerza resultante en el eje y es de:",
+      texto: "11. El freno de alambre que se ve en la figura tiene una tensión T igual a 7N a lo largo de él con un ángulo de 70 grados con el eje y. La fuerza resultante en el eje y es de:",
       opciones: [
         "8,3",
         "4,8",
@@ -124,11 +124,11 @@ const BiomechanicaTest = () => {
       respuestaCorrecta: 1,
     },
     {
-      texto: "12. Un fisioterapeuta está desarrollando un programa de rehabilitación para un paciente con una lesión de ligamento cruzado anterior (LCA) en etapa inicial de recuperación. En esta fase, el fisioterapeuta necesita fortalecer la musculatura sin generar tensión en el ligamento lesionado, por lo que decide incluir ejercicios que eviten el movimiento articular de la rodilla. ¿Qué combinación de ejercicios sería más adecuada para esta fase de rehabilitación?",
+      texto: "12. Un fisioterapeuta está desarrollando un programa de rehabilitación para un paciente con una lesión de ligamento cruzado anterior (LCA) en etapa inicial de recuperación. En esta fase, el fisioterapeuta necesita fortalecer la musculatura sin generar tensión en el ligamento lesionado, por lo que decide incluir ejercicios isométricos. ¿Qué combinación de ejercicios sería más adecuada para esta fase de rehabilitación?",
       opciones: [
         "Extensiones de rodilla y sentadillas profundas",
         "Sentadillas con salto y escalones",
-        "Contracción isométrica de cuádriceps y ejercicio de puente glúteo estático",
+        "Contracción sin flexo extensión del cuádriceps y ejercicio de puente glúteo estático",
         "Zancadas dinámicas y ejercicios con banda elástica con movimiento"
       ],
       respuestaCorrecta: 2,
@@ -150,7 +150,7 @@ const BiomechanicaTest = () => {
     },
     {
       id: "desarrollo4",
-      texto: "Un astronauta realiza un experimento para evaluar la atrofia muscular durante su misión de 3 meses en la Estación Espacial Internacional. Al inicio de la misión, su músculo cuádriceps femoral derecho tiene una fuerza máxima isométrica de 2400 N, medida en un dispositivo especializado. Estudios previos han demostrado que, sin ejercicio compensatorio, los astronautas pierden aproximadamente un 2% de fuerza muscular por semana en microgravedad. Tras 12 semanas en el espacio, ¿qué fuerza máxima isométrica podrá generar el astronauta con su cuádriceps al regresar a la Tierra y qué recomendación le harías para reducir la tasa de reducción de fuerza muscular y pérdida ósea? ¿Si el paciente tiene una masa de 80 kg cuanto pesa en la tierra?",
+      texto: "Un astronauta realiza un experimento para evaluar la atrofia muscular durante su misión de 3 meses en la Estación Espacial Internacional. Al inicio de la misión La parte posterior y anterior del musculo deltoide elevan el brazo aplicando una fuerza Fp y Fa de 15 N con un ángulo de 30 y 40 grados con la vertical. Estudios previos han demostrado que, sin ejercicio compensatorio, los astronautas pierden aproximadamente un 2% de fuerza muscular por semana en microgravedad.Tras 12 semanas en el espacio, ¿Qué fuerza máxima podrá generar el astronauta en el deltoide al regresar a la Tierra suponiendo una masa de 10 Kg, cual es la aceleración y que recomendación le harías para reducir la tasa de reducción de fuerza muscular y perdida ósea? ¿Si el paciente tiene una masa de 80 kg cuanto pesa en la tierra?",
     },
   ];
 
@@ -213,7 +213,7 @@ ${resumenDesarrollo}
   };
 
   const descargarArchivo = (contenido) => {
-    const clave = "biomecanica2025"; // Clave para encriptar
+    const clave = "Muratibiomecanica2025"; // Clave para encriptar
     const contenidoEncriptado = CryptoJS.AES.encrypt(contenido, clave).toString();
     const blob = new Blob([contenidoEncriptado], { type: 'text/plain;charset=utf-8' });
     const enlace = document.createElement('a');
