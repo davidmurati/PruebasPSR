@@ -20,7 +20,9 @@ const MenuSeleccion = () => {
     // Verificar contraseña según el examen seleccionado
     if (
       (selectedExam === 'Fisica1A' && password === 'Hola') ||
-      (selectedExam === 'Fisica1B' && password === 'Mundo')
+      (selectedExam === 'Fisica1B' && password === 'Mundo') ||
+      (selectedExam === 'Fisica2A' && password === 'derivada') ||
+      (selectedExam === 'Fisica2B' && password === 'integral')
     ) {
       // Redirigir al examen correspondiente usando window.location.href
       window.location.href = `/${selectedExam}`;
@@ -57,7 +59,7 @@ const MenuSeleccion = () => {
             <div className="exam-icon">📝</div>
             <div className="exam-content">
               <h3>Física 1A</h3>
-              <p>Evaluación de Biomecánica Sección A</p>
+              <p>Evaluación de Biomecanica Sección A</p>
             </div>
           </button>
           
@@ -68,7 +70,29 @@ const MenuSeleccion = () => {
             <div className="exam-icon">🔍</div>
             <div className="exam-content">
               <h3>Física 1B</h3>
-              <p>Evaluación de Biomecánica Sección B</p>
+              <p>Evaluación de Biomecanica Sección B</p>
+            </div>
+          </button>
+
+          <button 
+            className="exam-button exam-button-b"
+            onClick={() => handleExamSelection('Fisica2A')}
+          >
+            <div className="exam-icon">🔍</div>
+            <div className="exam-content">
+              <h3>Física 2A</h3>
+              <p>Evaluación de Biofluidos Sección A</p>
+            </div>
+          </button>
+
+          <button 
+            className="exam-button exam-button-b"
+            onClick={() => handleExamSelection('Fisica2B')}
+          >
+            <div className="exam-icon">🔍</div>
+            <div className="exam-content">
+              <h3>Física 2A</h3>
+              <p>Evaluación de Biofluidos Sección B</p>
             </div>
           </button>
         </div>
