@@ -147,8 +147,8 @@ const preguntasDesarrollo = [
   },
   {
     id: "desarrollo4",
-    texto: "Superficie total de la membrana alveolocapilar: 70 m², Coeficiente de difusión del oxígeno (D): 1,7×10⁻9 m²/s, Espesor de la membrana (x): 0,6 μm, Presión parcial de O₂ en alvéolos (PA): 100 mmHg, Presión parcial de O₂ en sangre capilar (Pc): 40 mmHg Solubilidad O2 1,3×10⁻7 mol/m3Pa. ¿Cuál es la cantidad de oxígeno transferida por difusión en mL/min a través de la membrana por minuto según la Ley de Fick, y cómo se vería afectada si el paciente tiene problemas de drenaje linfático?",
-    respuestaCorrecta: "305 mL/min",
+    texto: "Superficie total de la membrana alveolocapilar: 70 m², Coeficiente de difusión del oxígeno (D): 1,7×10⁻9 m²/s, Espesor de la membrana (x): 0,6 μm, Presión parcial de O₂ en alvéolos (PA): 100 mmHg, Presión parcial de O₂ en sangre capilar (Pc): 40 mmHg Solubilidad O2 1,3×10⁻7 mol/m3Pa. ¿Cuál es la cantidad de oxígeno transferida por difusión en mol/s a través de la membrana por minuto según la Ley de Fick, y cómo se vería afectada si el paciente tiene problemas de drenaje linfático?",
+    respuestaCorrecta: "0,00000002 mol/s",
     puntaje: 2
   },
   {
