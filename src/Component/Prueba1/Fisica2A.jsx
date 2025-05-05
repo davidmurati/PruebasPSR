@@ -130,7 +130,7 @@ const preguntasDesarrollo = [
   {
     id: "desarrollo1",
     texto: "¿Cuánta energía aproximadamente utiliza el corazón en 60 latidos si sabe que la presión Pa media es de 100 mmHg, el volumen es de 70 ml, La Pa media del ventrículo izquierdo es de 15 mmHg, la masa de 70 g y la velocidad del flujo es de 0,5 m/s? Ten en cuenta que 80% de la energía usada para bombear la sangre se transforma en calor.",
-    respuestaCorrecta: "32,5 J/min",
+    respuestaCorrecta: "323,5 J/min",
     puntaje: 2
   },
   {
