@@ -58,7 +58,7 @@ const preguntas = [
     texto: "5. Un investigador modela un capilar sanguíneo como un tubo cilíndrico con diámetro interno de 0.008 mm. Si la sangre tiene una tensión superficial de 0.058 N/m a temperatura corporal (37°C), densidad de 1060 kg/m³, y el ángulo de contacto entre la sangre y el endotelio vascular es de 30°, ¿cuál sería la altura teórica que alcanzaría la sangre en este capilar si solo actuara la fuerza de capilaridad?",
     opciones: [
       "1,25 m",
-      "3,20 m",
+      "2,36 m",
       "4,75 m",
       "5,65 m"
     ],
