@@ -136,13 +136,13 @@ const preguntasDesarrollo = [
   {
     id: "desarrollo2",
     texto: "Un fisiólogo estudia las adaptaciones cardiovasculares durante diferentes niveles de actividad física. Durante una prueba, registra los siguientes datos hemodinámicos en un sujeto: Diámetro de la arteria aorta: 6 mm, Presión en punto proximal (P₁): 100 mmHg, Presión en punto distal (P₂): 99,9 mmHg (después de un segmento de 0,05 m), Viscosidad sanguínea: 0,004 N·s/m², Frecuencia cardíaca: 60 latidos/min. ¿Cuál es el valor correcto del volumen sistólico, la conclusión sobre el estado de actividad física del sujeto, y un mecanismo fisiológico válido de regulación del gasto cardíaco en mL/latidos?",
-    respuestaCorrecta: "Volumen sistólico: 65,2 mL/latido, Estado: Reposo, Mecanismo: Aumento de la contractilidad miocárdica por estimulación simpática",
+    respuestaCorrecta: "Volumen sistólico: 2,1 mL/latido, Estado: Reposo, Mecanismo: Aumento de la contractilidad miocárdica por estimulación simpática",
     puntaje: 2
   },
   {
     id: "desarrollo3",
     texto: "Si una persona desciende 20 m bajo el nivel del mar ¿Cuál es la fuerza necesaria que compensar el oído para que el tímpano no se vea afectado sabiendo que el área es de 0,012 m?",
-    respuestaCorrecta: "Fuerza: 90,4 N",
+    respuestaCorrecta: "Fuerza: 2400 N",
     puntaje: 2
   },
   {

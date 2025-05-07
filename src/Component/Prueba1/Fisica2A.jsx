@@ -136,7 +136,7 @@ const preguntasDesarrollo = [
   {
     id: "desarrollo2",
     texto: "Un fisiólogo estudia las adaptaciones cardiovasculares durante diferentes niveles de actividad física. Durante una prueba, registra los siguientes datos hemodinámicos en un sujeto: Diámetro de la arteria aorta: 7 mm, Presión en punto proximal (P₁): 130 mmHg, Presión en punto distal (P₂): 129,9 mmHg (después de un segmento de 0,05 m), Viscosidad sanguínea: 0,004 N·s/m², Frecuencia cardíaca: 70 latidos/min. ¿Cuál es el valor correcto del volumen sistólico, la conclusión sobre el estado de actividad física del sujeto, y un mecanismo fisiológico válido de regulación del gasto cardíaco en mL/latidos?",
-    respuestaCorrecta: "76,1 mL/latido",
+    respuestaCorrecta: "4,5 mL/latido",
     puntaje: 2
   },
   {
